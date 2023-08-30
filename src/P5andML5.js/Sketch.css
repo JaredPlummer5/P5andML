@@ -1,0 +1,36 @@
+#canvas-container {
+    background-color:  #7ee4fd;
+   
+    height: 100%;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 20px 20px 20px;
+
+
+}
+
+#canvas-container > canvas {
+    display: block;
+    width: max-content;
+    height: max-content;
+    background-color: #7ee4fd;
+}
+#canvas-container > video {
+    top: 50%;
+    left: 50%;
+    /* width: 650; */
+    height: max-content;
+    border-radius: 8px;
+    box-shadow: 25px 25px 25px rgba(0, 0, 0, 0.1);
+
+}
+
+/* div > div:last-child {
+    background-color: #e6f7ff; /* Soft blue background 
+    padding: 10px 20px;
+    border-radius: 8px;
+    max-width: 650px; /* Adjust based on your video size 
+    margin: 0 auto; /* Center the container 
+    font-size: 18px;
+} */

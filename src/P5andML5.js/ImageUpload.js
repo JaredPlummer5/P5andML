@@ -44,7 +44,7 @@ const ImageUpload = () => {
                 </div>
             </form>
 
-            <Sketch uploadedImage={image} />
+            
      
         </div>
     );
